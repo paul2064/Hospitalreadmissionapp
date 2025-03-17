@@ -13,11 +13,7 @@ import os
 
 # Load cleaned dataset
 def load_data():
-    file_path = @st.cache_data
-def load_data():
-    url = "hospital_readmission_cleaned.csv"
-    return pd.read_csv(url)
-"
+    file_path = r"C:\Users\Data Professional\Desktop\hospitalreadmission\hospital_readmission_cleaned.csv"
     return pd.read_csv(file_path)
 
 # Drop unnecessary columns and analyze feature importance
