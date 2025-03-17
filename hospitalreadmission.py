@@ -13,7 +13,8 @@ import os
 
 # Load cleaned dataset
 def load_data():
-    file_path = r"C:\Users\Data Professional\Desktop\hospitalreadmission\hospital_readmission_cleaned.csv"
+    # Use the raw URL from your GitHub repository
+    file_path = 'https://raw.githubusercontent.com/paul2064/Hospitalreadmissionapp/main/hospital_readmission_cleaned.csv'
     return pd.read_csv(file_path)
 
 # Drop unnecessary columns and analyze feature importance
