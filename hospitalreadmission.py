@@ -15,7 +15,7 @@ import os
 def load_data():
     file_path = @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/paul2064/hospitalreadmission/main/hospital_readmission_cleaned.csv"
+    url = "hospital_readmission_cleaned.csv"
     return pd.read_csv(url)
 "
     return pd.read_csv(file_path)
